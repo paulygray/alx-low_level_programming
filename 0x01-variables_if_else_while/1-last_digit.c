@@ -3,9 +3,11 @@
 #include <time.h>
 
 /**
- * main - Check last digit of random number
+ * main - Entry point
  *
- * Return - Return 0 (Success)
+ * Description: Check last digit of random number
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

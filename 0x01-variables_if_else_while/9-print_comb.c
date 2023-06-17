@@ -3,8 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- * @parameter: describe the parameter
+ * Description: Possible combos of single digit numbers
  *
  * Return: Always 0 (Success)
  */
@@ -16,11 +15,12 @@ int main(void)
 	{
 		putchar(jon);
 		if (jon != 57)
+		{
 			putchar(',');
 			putchar(' ');
+		}
+	}
 	putchar('\n');
 
-
-	}
 	return (0);
 }

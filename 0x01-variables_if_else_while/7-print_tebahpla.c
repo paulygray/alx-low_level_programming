@@ -16,7 +16,7 @@ int main(void)
 		putchar(smile);
 		smile--;
 	}
-	putchar(\n);
+	putchar('\n');
 
 	return (0);
 }

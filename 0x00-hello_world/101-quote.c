@@ -4,10 +4,9 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- * @parameter: describe the parameter
+ * Description: Print given text followed by new line
  *
- * Return: Always 0 (Success)
+ * Return: Return 1
  */
 int main(void)
 {

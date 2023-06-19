@@ -17,11 +17,11 @@ int main(void)
 		{
 			if (a < z)
 			{
-				putchar((a / 10) + 45);
-				putchar((a % 10) + 45);
+				putchar((a / 10) + 48);
+				putchar((a % 10) + 48);
 				putchar(' ');
-				putchar((z / 10) + 45);
-				putchar((z % 10) + 45);
+				putchar((z / 10) + 48);
+				putchar((z % 10) + 48);
 				if (a != 98 || z != 99)
 				{
 					putchar(',');

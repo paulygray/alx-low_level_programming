@@ -11,18 +11,18 @@ int main(void)
 {
 	int a, b, c;
 
-	for (a = 14 ; a <= 35; a++)
+	for (a = 48; a <= 57; a++)
 	{
-		for (b = 23; b <= 35; b++)
+		for (b = 49; b <= 57; b++)
 		{
-			for (c = 30; c <= 35; c++)
+			for (c = 50; c <= 57; c++)
 			{
 				if (c > b && b > a)
 				{
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (a != 33 || b != 34)
+					if (a != 55 || b != 56)
 					{
 						putchar(',');
 						putchar(' ');

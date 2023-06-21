@@ -17,7 +17,7 @@ int main(void)
 		if (n % 3 == 0 || n % 5 == 0)
 			m += n;
 	}
-	printf("%d\n", b);
+	printf("%d\n", m);
 
 	return (0);
 }

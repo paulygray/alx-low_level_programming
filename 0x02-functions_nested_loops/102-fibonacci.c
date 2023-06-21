@@ -22,7 +22,7 @@ int main(void)
 		b = c;
 		c = a + b;
 
-		if (counter < 50)
+		if (count < 50)
 			printf(", ");
 	}
 	printf("\n");

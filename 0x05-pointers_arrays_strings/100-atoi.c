@@ -1,9 +1,11 @@
 /**
  * _atoi - Function prototype
- * 
+ *
  * Description: Convert string to an integer
  *
  * @s: string param to be converted
+ *
+ * Return: int converted from string
  */
 int _atoi(char *s)
 {

@@ -13,9 +13,9 @@ char *rot13(char *str)
 	char a[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char b[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	for (x = 0; str[y] != '\0'; y++)
+	for (x = 0; str[x] != '\0'; x++)
 	{
-		for (y = 0; a[x] != '\0'; y++)
+		for (y = 0; a[y] != '\0'; y++)
 		{
 			if (str[x] == a[y])
 			{

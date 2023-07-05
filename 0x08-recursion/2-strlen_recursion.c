@@ -1,7 +1,7 @@
 /**
  * _strlen_recursion - return length of a string
  * @s: string param
- * 
+ *
  * Return: length of string
  */
 int _strlen_recursion(char *s)

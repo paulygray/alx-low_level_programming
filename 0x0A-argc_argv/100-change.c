@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 
 	cents = atoi(argv[1]);
 	coins = 0;
-	if (argc < 2 || argc > 2)
+	if (argc == 1 || argc > 2)
 	{
 		printf("Error\n");
 		return (1);
